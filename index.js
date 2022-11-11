@@ -56,7 +56,7 @@ Person.prototype.toString = function() {
 
 function Car(model, mpg) {
   this.model = model;
-  this.mpg = mpg;
+  this.milesPerGallon = mpg;
   this.tank = 0;
   this.odometer = 0;
 }
